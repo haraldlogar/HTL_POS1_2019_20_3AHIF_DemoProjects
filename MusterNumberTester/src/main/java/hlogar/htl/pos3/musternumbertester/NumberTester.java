@@ -53,10 +53,8 @@ public class NumberTester {
         try {
             BufferedReader br = new BufferedReader(new FileReader(fileName));
 
-            String line;
-
             // erste Zeile beinhaltet die Anzahl der Tests
-            line = br.readLine();
+            String line = br.readLine();
             Integer testAnzahl =  Integer.parseInt(line);
             
             // lies nächste Zeile
