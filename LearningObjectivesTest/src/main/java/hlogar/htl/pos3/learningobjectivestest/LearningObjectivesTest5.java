@@ -35,9 +35,9 @@ public class LearningObjectivesTest5 {
             String result3 = executor.invokeAny(callables);
             System.out.println(result3);
         } catch (InterruptedException ex) {
-            Logger.getLogger(LearningObjectivesTest.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LearningObjectivesTest5.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ExecutionException ex) {
-            Logger.getLogger(LearningObjectivesTest.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LearningObjectivesTest5.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         // Output: task4
